@@ -1,0 +1,266 @@
+@charset 'utf-8';
+
+
+@font-face {
+    font-family: 'Paperozi';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-4Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+.quicksand {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.02em;
+}
+
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+em,
+img,
+small,
+strong,
+b,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tr,
+th,
+td,
+article,
+aside,
+footer,
+header,
+nav,
+section,
+summary,
+video,
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+html,
+body {
+    /* Prevent font scaling in landscape */
+
+    -webkit-text-size-adjust: none;
+    /*Chrome, Safari, newer versions of Opera*/
+
+    -moz-text-size-adjust: none;
+    /*Firefox*/
+
+    -ms-text-size-adjust: none;
+    /*Ie*/
+
+    -o-text-size-adjust: none;
+    /*old versions of Opera*/
+}
+
+body {
+    font-family: 'SUIT Variable', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    color: #222222;
+
+}
+/* top_btn */
+.top_btn {
+    position: fixed;
+    right: 10px;
+    bottom: 95px;
+    z-index: 9999999;
+    box-shadow: 0 1px 10px rgb(0, 0, 0, 0.3);
+    border-radius: 120px;
+    overflow: hidden;
+    color: #f5f5f0;
+    transition: transform 0.6s ease;
+}
+
+.top_btn:hover {
+    transform: scale(1.1);
+}
+
+.top_btn svg {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 2px;
+    transform: scale(1.1);
+}
+
+.top_btn a {
+    background-color: #e2725b;
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* book_btn */
+.book_btn {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 9999999;
+    box-shadow: 0 1px 10px rgb(0, 0, 0, 0.3);
+    border-radius: 120px;
+    overflow: hidden;
+    transition: transform 0.6s ease;
+}
+
+.book_btn:hover {
+    transform: scale(1.1);
+}
+
+.book_btn img {
+    width: 55px;
+}
+
+.book_btn a {
+    background-color: #e2725b;
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* header */
+#header {
+    background-color: #ffffff;
+}
+
+#nav {
+    width: 1320px;
+    margin: 0 auto;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gnb{
+    display: flex;
+}
+    
+.gnb li a {
+    display: block;
+    margin: 0 26px;
+    color: #333333;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: 0.3s;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+}
+
+.gnb li a:hover {
+    color: #f6795d;
+
+
+}
+/* footer */
+#footer {
+    background-color: #e2725b;
+    height: 560px;
+    overflow: hidden;
+}
+
+.footer_wrap {
+    margin: 0 auto;
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_wrap .right {
+    height: 236px;
+    padding: 55px 0 269px 0;
+    text-align: right;
+}
+
+.right p {
+    color: #f5f5f0;
+    font-size: 16px;
+    font-family: "Quicksand", sans-serif;
+    text-transform: uppercase;
+    font-weight: 550;
+    padding-bottom: 32px;
+    letter-spacing: 1.6px;
+}
+
+.right p a:hover {
+    color: #913018;
+    font-weight: 700;
+}
+
+.footer_wrap .left {
+    height: 412px;
+    padding: 55px 0 93px 0;
+    text-align: left;
+}
+
+.footer_wrap .left .footer_text p {
+    color: #f5f5f0;
+    font-size: 15px;
+    font-family: "Quicksand", sans-serif;
+    text-transform: uppercase;
+    font-weight: 550;
+    padding-bottom: 15px;
+    letter-spacing: 1.6px;
+}
+
+.footer_slogan {
+    padding-top: 23px;
+    padding-bottom: 16px;
+}
+
+.footer_logo {
+    padding-bottom: 64px;
+
+}
+.footer_icon a:hover{
+    opacity: 80%;
+}
+

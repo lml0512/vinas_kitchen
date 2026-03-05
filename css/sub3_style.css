@@ -1,0 +1,131 @@
+#wrap {
+    min-width: 1400px;
+    overflow: hidden;
+}
+
+.rubik {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+/* sec1 */
+#sec1 {
+    background-color: #EADCCA;
+    height: 575px;
+}
+
+.sec1_container {
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+
+.sec1_container h1 {
+    font-family: "Rubik", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    color: #e2725b;
+    padding-top: 55px;
+    font-size: 45px;
+}
+
+.pic_wrap {
+    display: flex;
+    gap: 40px;
+}
+
+.pic_wrap img {
+    border-radius: 20px;
+     width: 100%;
+    display: block;
+    transition: transform 0.3s, filter 0.3s;
+}
+.pic_wrap img:hover{
+    filter: brightness(0.8);
+}
+
+.pic_wrap p {
+    font-family: "Quicksand", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #e2725b;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+
+/* sec2 */
+#sec2 {
+    background-color: #EADCCA;
+    height: 690px;
+}
+.sec2_container{
+    margin: 0 auto;
+    width: 1320px;
+}
+.sec2_container h1{
+    font-family: "Rubik", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+    color: #e2725b;
+    padding: 55px 0 75px 0 ;
+    font-size: 45px;
+}
+/* board */
+.line {
+    height: 1px;
+    background-color: #333333;
+}
+
+.board_btn {
+    display: flex;
+    align-items: center;
+}
+
+.board_btn p {
+    width: 94%;
+    padding: 18px 20px 18px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #e2725b;
+    font-size: 20px;
+    letter-spacing: 0.6px;
+}
+.board_btn span {
+    display: block;
+    width: 5%;
+    text-align: center;
+}
+.board_btn span img{
+    transition: transform 0.5s;
+}
+.turn img{
+     transform: rotate(180deg);
+}
+.answer{
+    background-color: #EADCCA;
+    display: flex;
+    padding: 20px 0 30px;
+   
+}
+.answer strong{
+    display: block;
+    width: 12%;
+    text-align: center;
+    
+}   
+.answer p{
+    width: 88%;
+    letter-spacing: 0.6px;
+    line-height: 1.5em;
+    font-size: 16px;
+    color: #6B6A6A;
+    font-weight: 400;
+}

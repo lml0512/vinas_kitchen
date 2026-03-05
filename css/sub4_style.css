@@ -1,0 +1,407 @@
+#wrap {
+    min-width: 1400px;
+    overflow: hidden;
+}
+
+.rubik {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+/* sec1 */
+#sec1 {
+    background-color: #e2725b;
+    height: 298px;
+
+}
+
+.sec1_container {
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_wrap p {
+    color: #f5f5f0;
+    font-size: 17px;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    line-height: 1.4em;
+}
+
+.tour_text {
+
+    padding: 63px 0 29px;
+
+}
+
+/* tour_container */
+.tour_container {
+    width: 280px;
+    height: 207px;
+    margin: 45px 65px 0;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.tour_list {
+    list-style: none;
+    padding: 0 9px;
+    border: 2px solid #EADCCA;
+    border-radius: 15px;
+    /* 모서리 둥글게 */
+    width: 100%;
+    max-width: 280px;
+    /* 박스 최대 너비 */
+}
+
+.tour_item {
+    display: flex;
+    /* 아이콘과 글자를 가로로 나열 */
+    align-items: center;
+    /* 세로 중앙 정렬 */
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    /* 글자 간격 살짝 넓게 */
+    margin-top: 25px;
+}
+
+.tour_item:nth-child(3) {
+    margin-top: 20px;
+}
+
+.tour_item:not(:last-child) {
+    border-bottom: 1px solid #EADCCA;
+}
+
+.tour_item .text {
+    color: #EADCCA;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Rubik", sans-serif;
+    padding: 0 0 0 34px;
+    margin-bottom: 20px;
+
+}
+
+.tour_item a {
+    display: block;
+}
+
+
+.heart {
+    background: url(../images/5_local_tips/section1/heart_icon.svg)no-repeat 0 -4px;
+}
+
+.snow {
+    background: url(../images/5_local_tips/section1/snow_icon.svg)no-repeat 2px 0;
+
+
+}
+
+.sun {
+    background: url(../images/5_local_tips/section1/sun_icon.svg)no-repeat;
+    padding: 4px 0 0 34px !important;
+}
+
+/* sec2 */
+#sec2 {
+    background-color: #f5f5f0;
+    
+    height: 905px;
+}
+
+.sec2_container {
+    margin: 0 auto;
+    width: 1320px;
+    
+}
+
+/* title_wrap */
+.title_wrap h1 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #e2725b;
+    padding: 62px 0 47px;
+    letter-spacing: 0.8px;
+    background: url(../images/5_local_tips/section2/heart_icon.svg)no-repeat left 400px top 47px;
+}
+
+.title_wrap p {
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+}
+
+.title_wrap .orange {
+    background: url(../images/5_local_tips/section2/bus_icon.svg) no-repeat top 25px left;
+    color: #e2725b;
+    padding: 30px 0 32px 39px;
+    border-bottom: 1px solid #333333;
+}
+
+/* tour_box_wrap */
+.tour_box_wrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 41px 0 0;
+}
+
+.box {
+    width: 420px;
+    height: 560px;
+    box-sizing: border-box;
+    background-color: #e2725b;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: #f5f5f0;
+    padding: 43px 25px 0 25px;
+}
+.pic_wrap1 img {
+    width: 100%;
+    display: block;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.pic_wrap1:hover img {
+    transform: scale(1.1);
+    filter: brightness(1.1);
+}
+
+.box h2 {
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 2.4px;
+}
+
+.box p {
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 1.2px;
+    font-weight: 100;
+    padding: 7px 0;
+}
+
+.pic_wrap1 {
+    position: relative;
+    overflow: hidden;
+    width: 370px;
+    height: 300px;
+    border-radius: 0 20px 0 20px;
+    margin-bottom: 17px;
+}
+
+.pic_wrap1 img {
+    width: 100%;
+    display: block;
+}
+
+.pic_wrap1 .text_box {
+    font-family: "Quicksand", sans-serif;
+    position: absolute;
+    background-color: #f5f5f0;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #e2725b;
+    padding: 3px 10px;
+    font-size: 14px;
+   
+}
+
+.top_left {
+    top: 0;
+    left: 0;
+    border-radius: 0 0 10px 0;
+}
+
+.bottom_right {
+    bottom: 0;
+    right: 0;
+    border-radius: 10px 0 0 0;
+}
+
+.favorite_text_wrap {
+    padding-top: 15px;
+    
+}
+
+.favorite_text_wrap p {
+    font-size: 15px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    padding: 0 0 5px 27px;
+    line-height: 1.4em;
+    font-weight: 200;
+    
+}
+
+.info {
+    background: url(../images/5_local_tips/section2/info_icon.svg) no-repeat 0 0;
+
+}
+
+.loca {
+    background: url(../images/5_local_tips/section2/location_icon.svg) no-repeat -1px 0;
+
+}
+
+/* sec3 */
+#sec3 {
+    background-color: #f5f5f0;
+    height: 700px;
+}
+
+.sec3_container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+/* title_wrap */
+
+.sec3_title_wrap h1 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #e2725b;
+    padding: 62px 0 34px;
+    letter-spacing: 0.8px;
+    background: url(../images/5_local_tips/section3/snow_icon.svg)no-repeat right 0 top 52px;
+    border-bottom: 1px solid #333333;
+   
+}
+
+
+/* tour_box_wrap */
+
+.height {
+    height: 540px;
+}
+
+.sec3_text p {
+    letter-spacing: 0.3px;
+    line-height: 1.4em;
+}
+
+/* sec4 */
+#sec4 {
+    background-color: #f5f5f0;
+    height: 1210px;
+}
+
+.sec4_container {
+    width: 1320px;
+    margin: 0 auto;
+
+}
+
+/* title_wrap */
+.sec4_title_wrap h1 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #e2725b;
+    padding: 62px 0 34px;
+    letter-spacing: 0.8px;
+    background: url(../images/5_local_tips/section4/swim_person_icon.svg)no-repeat right 0 top 55px;
+    border-bottom: 1px solid #333333;
+}
+.sec4_text_wrap{
+    height: 1083px;
+}
+
+.content_wrap {
+    
+    display: flex;
+    padding-top: 42px;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    height: 361px;
+    box-sizing: border-box;
+}
+/* left */
+.left {
+    width: 32%;
+}
+
+.left h1 {
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #e2725b;
+    font-weight: 600;
+    font-family: "Rubik", sans-serif;
+}
+
+.money_wrap {
+    font-family: "Quicksand", sans-serif;
+    color: #e2725b;
+    border-radius: 10px;
+    width: 170px;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.8px;
+    background: url(../images/5_local_tips/section4/money_icon.svg)#eadcca no-repeat 16px 9px;
+}
+
+
+/* middle */
+
+.middle {
+    
+    width: 35%;
+}
+.text1 {
+    padding-bottom: 50px;
+}
+
+.text1 strong {
+    font-weight: 600;
+}
+
+.walk {
+    
+    background: url(../images/5_local_tips/section4/walk_icon.svg)no-repeat 0 0;
+}
+
+.time {
+    background: url(../images/5_local_tips/section4/time_icon.svg)no-repeat 0px 12px;
+  
+}
+
+.location {
+    background: url(../images/5_local_tips/section4/pool_location_icon.svg) no-repeat -1px 0px;
+}
+
+.text2 p{
+    font-weight: 600;
+    padding: 2px 0 30px 40px;
+    
+}
+
+/* right */
+.right {
+    width: 33%;
+}
+
+.right img {
+    border-radius: 10px;
+    width: 100%;
+    display: block;
+    transition: transform 0.3s, filter 0.3s;
+}
+.right img:hover{
+    filter: brightness(0.8);
+}
+

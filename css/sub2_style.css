@@ -1,0 +1,372 @@
+#wrap {
+    min-width: 1400px;
+    overflow: hidden;
+}
+
+.rubik {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+/* sec1 */
+#sec1 {
+    background-color: #ffffff;
+    height: 673px;
+}
+
+.sec1_container {
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.left_wrap {
+    padding-top: 55px;
+    width: 400px;
+
+}
+
+.middle_wrap {
+    margin-top: 30px;
+}
+
+.middle_pic_wrap {
+    display: flex;
+    gap: 35px;
+    width: 714px;
+}
+
+.middle_wrap h2 {
+    text-transform: uppercase;
+    font-family: "rubik", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.2em;
+    letter-spacing: 0.5px;
+    padding: 35px 0 30px 0;
+}
+
+.middle_wrap p {
+    line-height: 1.4em;
+    letter-spacing: 0.3px;
+}
+
+.right_wrap {
+    margin-top: 30px;
+    width: 343px;
+}
+
+.right_wrap_pic1 {
+    padding-bottom: 35px;
+}
+
+/* sec2 */
+#sec2 {
+    background-color: #ffffff;
+    height: 580px;
+}
+
+.sec2_container {
+    padding-top: 100px;
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* sec2_left_wrap */
+.sec2_left_wrap {
+    display: flex;
+    width: 893px;
+    
+}
+
+/* 추가코드 */
+.place_area{
+    height: 480px;  
+     justify-content: flex-end;
+    position: relative;
+    /* background-color: yellow; */
+}
+.place_wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.place_wrap> li> img{
+    cursor: pointer;
+    display: block;
+}
+.place_wrap_bottom{
+    width: 746px;
+    height: 480px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.place_wrap_bottom img{
+    width: 100%;
+    display: block;
+}
+.section_place{
+    width: 746px;
+    height: 480px;
+    overflow: hidden;
+}
+.section_place img{
+    display: block;
+    width: 100%;
+}
+.place_wrap li .section_place{
+    display: none;
+}
+.place_wrap> li:hover .section_place{
+    display: block;
+}
+.section_place{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+/* 추가코드 끝 */
+
+
+
+
+/* sec2_right_wrap */
+.sec2_right_wrap {
+    width: 390px;
+}
+
+.pic1_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sec2_right_wrap h1 {
+    font-family: "Rubik", sans-serif;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    font-size: 40px;
+}
+
+.sec2_btn {
+    display: flex;
+    gap: 7px;
+    font-family: "Quicksand", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    color: #f5f5f0;
+    padding: 60px 0 45px 0;
+}
+
+.sec2_btn>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #46737b;
+    height: 27px;
+    padding: 0 9px;
+}
+
+.sec2_btn1 {
+    width: 40px;
+    border-radius: 15px;
+    box-sizing: border-box;
+
+}
+
+.sec2_btn2 {
+
+    border-radius: 20px;
+
+}
+
+.sec2_btn3 {
+
+    border-radius: 20px;
+
+}
+
+.sec2_right_wrap p {
+    letter-spacing: 0.5px;
+    line-height: 1.5em;
+    padding-bottom: 76px;
+}
+
+.btn_check a{
+    font-family: "Quicksand", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    background-color: #e2725b;
+    color: #f5f5f0;
+    width: 190px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    
+}
+.btn_check a:hover{
+    
+    background-color: #ffffff;
+    border: 1px solid #e2725b;
+    color: #e2725b;
+}
+
+
+/* sec3 */
+#sec3 {
+    background-color: #ffffff;
+    height: 580px;
+}
+
+.sec3_container {
+    padding-top: 100px;
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* sec3_left_wrap */
+.sec3_left_wrap {
+    width: 390px;
+}
+
+
+.sec3_left_wrap h1 {
+    font-family: "Rubik", sans-serif;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    font-size: 40px;
+}
+
+.sec3_btn {
+    display: flex;
+    gap: 7px;
+    font-family: "Quicksand", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    color: #f5f5f0;
+    padding: 60px 0 45px 0;
+
+}
+
+.sec3_btn>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #46737b;
+    height: 27px;
+    padding: 0 9px;
+}
+
+.sec3_btn1 {
+    width: 40px;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.sec3_btn2 {
+    border-radius: 20px;
+}
+
+.sec3_left_wrap p {
+    letter-spacing: 0.5px;
+    line-height: 1.5em;
+    padding-bottom: 76px;
+}
+
+.sec3_right_wrap {
+    display: flex;
+    gap: 11px;
+    width: 893px;
+}
+
+.pic2_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* sec4 */
+#sec4 {
+    background-color: #ffffff;
+    height: 680px;
+}
+
+.sec4_container {
+    padding-top: 100px;
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* sec4_left_wrap */
+.sec4_left_wrap {
+    display: flex;
+    gap: 11px;
+    width: 893px;
+}
+
+.sec4_left_wrap img {
+   
+   display: block;
+}
+.pic3_wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* sec4_right_wrap */
+
+.sec4_right_wrap {
+    width: 395px;
+}
+
+.sec4_right_wrap h1 {
+    font-family: "Rubik", sans-serif;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    font-size: 40px;
+}
+
+.sec4_right_wrap p {
+
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    padding: 46px 0 40px 0;
+}
+
+.dor_room {
+    padding-bottom: 55px;
+}
+
+.border {
+    line-height: 1.2em;
+    font-family: "Quicksand", sans-serif;
+    border-bottom: 1px #333333 solid;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #333333;
+    letter-spacing: 0.7px;
+}
+

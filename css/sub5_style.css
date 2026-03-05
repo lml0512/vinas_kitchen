@@ -1,0 +1,154 @@
+#wrap {
+    min-width: 1400px;
+    overflow: hidden;
+}
+
+.rubik {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+/* sec1 */
+#sec1 {
+    background-color: #EADCCA;
+    height: 100px;
+    
+}
+
+.sec1_container {
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding-top: 24px;
+    
+}
+.sec1_container li a {
+    color: #f5f5f0;
+    font-family: "Quicksand", sans-serif;
+    background-color: #e2725b;
+    width: 190px;
+    height: 50px;
+    border-radius: 25px;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    padding-left: 20px;
+    font-size: 17px;
+    box-sizing: border-box;
+    border: #e2725b solid 1px;
+}
+.sec1_container li a:hover {
+    background-color: #c2513b ;
+    font-weight: 700; 
+    border: #c2513b solid 1px;
+}
+.chat a{
+    background: url(../images/6_contact/section1/chat_icon.svg)no-repeat 32px;
+    
+}
+.whatsapp a{
+    background: url(../images/6_contact/section1/whatsapp_icon.svg)no-repeat 28px;
+}
+.email a{
+    background: url(../images/6_contact/section1/Envelope_icon.svg)no-repeat 32px;
+}
+.call a{
+    background: url(../images/6_contact/section1/phone_icon.svg)no-repeat 43px;
+}
+
+/* sec2 */
+#sec2{
+    background-color: #f5f5f0;
+    height: 610px;
+}
+
+.sec2_container {
+    width: 1320px;
+    margin: 0 auto;
+    padding-top: 62px;
+}
+.sec2_container h2{
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    color: #e2725b;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+    
+    
+}
+
+.mail{
+    padding-top: 20px;
+    
+}
+.message{
+    padding-top: 20px;
+}
+
+/* btn */
+.btn_send a{
+    width: 199px;
+    height: 52px;
+    background-color: #e2725b;
+    border-radius: 30px;
+    color: #f5f5f0;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    margin: 80px 0 0 180px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 550;
+    font-family: "Quicksand", sans-serif;
+    letter-spacing: 2.5px;
+    transition: 0.3s;
+    border: 1px solid transparent;
+}
+.btn_send a:hover {
+    color: #e2725b;
+    font-weight: 700;
+    background-color: #f5f5f0;
+    border: #e2725b solid 1px;
+}
+/* text_area */
+#textarea_wrap{
+    width: 980px;
+    margin-left: 180px;
+    
+}
+#textarea_wrap input{
+    display: block;
+    background-color: #f5f5f0;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #848383;
+    box-sizing: border-box;
+    resize: vertical;
+    
+}
+#textarea_wrap textarea{
+    display: block;
+    background-color: #f5f5f0;
+    width: 100%;
+    height: 100px;
+    border: none;
+    border-bottom: 1px solid #848383;
+    padding: 20px;
+    box-sizing: border-box;
+    resize: vertical;
+    /* 
+        박스 고정
+        resize: both;(기본값)-> 상하좌우 조절가능
+        resize: horizontal;-> 좌우 조절가능(상하조절불가)
+        resize: vertical;-> 상하 조절가능(좌우조절불가)
+        resize: none;->사용자 조절 불가능
+    */
+}

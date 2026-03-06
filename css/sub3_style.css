@@ -13,7 +13,7 @@
 /* sec1 */
 #sec1 {
     background-color: #EADCCA;
-    height: 575px;
+    
 }
 
 .sec1_container {
@@ -21,7 +21,7 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    gap: 55px;
+    gap: 75px;
 }
 
 .sec1_container h1 {
@@ -30,7 +30,7 @@
     font-weight: bold;
     letter-spacing: 1.2px;
     color: #e2725b;
-    padding-top: 55px;
+    padding-top: 80px;
     font-size: 45px;
 }
 
@@ -75,7 +75,7 @@
     font-weight: bold;
     letter-spacing: 1.4px;
     color: #e2725b;
-    padding: 55px 0 75px 0 ;
+    padding: 80px 0 75px 0 ;
     font-size: 45px;
 }
 /* board */

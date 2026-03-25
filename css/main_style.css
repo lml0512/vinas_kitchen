@@ -69,7 +69,7 @@
 
 /* visual */
 #visual {
-    height: 700px;
+    height: 770px;
     display: flex;
     justify-content: center;
     position: relative;
@@ -78,7 +78,7 @@
 }
 
 #visual img {
-    height: 700px;
+    height: 770px;
 }
 
 /* bar */
